@@ -1,0 +1,46 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 87vw;
+    height: 75vh;
+    top: 10vh;
+    left: 5vw;
+    border: 20px double rgb(6, 70, 6);
+}
+
+.progress-bar-frame{
+    width: 46vw;
+    height: 12vh;
+    border: 5px solid rgb(7, 75, 7);
+}
+
+.progress-bar{
+    height: 8vh;
+    margin-top: 1.9vh;
+    margin-left: 1vw;
+}
+
+.progress-bar:hover{
+    animation-name: animation_progress;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    background-color: green;
+}
+
+@keyframes animation_progress{
+    0%{
+        width: 4vw;
+    }
+    100%{
+        width: 44vw;
+    }
+}
