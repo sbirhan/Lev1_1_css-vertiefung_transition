@@ -36,10 +36,6 @@ html, body{
     background-color: green;
 }
 
-.progress-bar:hover{
-
-}
-
 @keyframes animation_progress{
     0%{
         width: 4vw;
