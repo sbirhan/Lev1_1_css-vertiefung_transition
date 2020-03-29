@@ -27,13 +27,17 @@ html, body{
     margin-left: 1vw;
 }
 
-.progress-bar:hover{
+.progress-bar-frame:hover .progress-bar{
     animation-name: animation_progress;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
     background-color: green;
+}
+
+.progress-bar:hover{
+
 }
 
 @keyframes animation_progress{
